@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(236, 247, 255);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#headings {
+  margin-top: 0;
+  position: top, fixed;
+  height: fit-content;
+}
+
+h1  {
+  text-align: center;
+  font-size: 125px;
+  color: rgb(255, 179, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 80vh;
+}
+
+.sideMenu {
+  width: 40vh;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+}
+
+.sideMenuTitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+.mid {
+  width: fit-content
+}
+
+#cat {
+  width: 50vh;
+  cursor: url('img/pixel-hand-64.webp'), pointer;
+  
+}
+
+#nameInp {
+  font-family: inherit;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+  height: 30px;
+}
+
+input, button {
+  height: 50px;
+  font-family: inherit;
+  font-size: 20px;
+  margin: 10px;
+}
+
+@keyframes headShake {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(-8deg);}
+  50% { transform: rotate(0deg);}
+  75% { transform: rotate(8deg);}
+  100% { transform: rotate(0deg);}
+}
+
+.shake {
+  animation: headShake 0.4s ease;
+}
+
+#funfact {
+  color: rgb(255, 179, 0);
+  font-size: 40px;
+}

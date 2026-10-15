@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCat</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    
+</head>
+
+
+
+<body>
+    <div id="headings">
+        <h1 id="headingText">pet a cat!</h1>
+    </div>
+
+    <div id="main">
+        <div class="sideMenu"> <!--naming menu-->
+            <h2 class="sideMenuTitle">personalize your cat</h2>
+            <input type="text" id="nameInp" placeholder="give me a name...">
+            <button id="saveButton">save?</button>
+        </div> 
+        <div class="mid">
+            <img id="cat" src="img/chanelcat2.jpg"> <!--cat, where petting, animations, interactions will take place-->
+        </div>
+        <div class="sideMenu"> <!--random funfacts show upon interaction-->
+            <h2 class="sideMenuTitle">super fun fact(s)</h2>
+            <h3>pet me for a randomized fun fact!</h3>
+            <h3 id="funfact"></h3>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
